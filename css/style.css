@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700;800&display=swap);
+@import url(components/container.css);
+@import url(components/avatar.css);
+@import url(components/button.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+  	font-weight: 400;
+  	color: white;
+  	margin: 0px;
+  	background-color: #A9806C;
+}
+
+h1, h2, h3{
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+h2{
+	color: #FFBF00;
+}
+
+p{
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#btn-white{
+	color: white;
+}
+
+#btn-white:hover{
+	color: #FFBF00;
+}
+
